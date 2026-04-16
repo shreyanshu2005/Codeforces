@@ -6,7 +6,7 @@ public class Game01 {
         for(int i = 0;i<t;i++){
             String m = sc.next();
             int zero = 0;
-            int one = 1;
+            int one = 0;
             for(char c : m.toCharArray()){
                 if(c == '0'){
                     zero++;
